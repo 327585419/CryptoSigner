@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLight"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_sign"/>
+
+    <View
+        style="@style/base_line"
+        android:layout_height="@dimen/dp_10"
+        android:background="@color/colorWindow" />
+
+    <TextView
+        android:id="@+id/tv_save"
+        style="@style/bt_theme_circle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/dp_73"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_73"
+        android:layout_marginBottom="@dimen/dp_25"
+        android:text="@string/create_deal_sign" />
+
+    <TextView
+        android:id="@+id/tv_sign"
+        style="@style/tv_dark_14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_25"
+        android:textIsSelectable="true"
+        android:background="@drawable/round_line_gray"
+        android:gravity="top"
+        android:lineSpacingExtra="@dimen/dp_8"
+        android:minHeight="@dimen/dp_100"
+        android:visibility="gone"
+        android:padding="@dimen/dp_16"
+        android:singleLine="false" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_25" />
+
+</LinearLayout>

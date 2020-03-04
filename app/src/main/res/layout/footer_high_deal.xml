@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLight"
+        android:divider="@drawable/divider_line"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_10"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_dark_14"
+                android:text="@string/give_change_address_" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                style="@style/tv_gray_14"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/fenduo"
+                android:drawablePadding="@dimen/dp_14"
+                android:ellipsize="middle"
+                android:gravity="right"
+                android:hint="@string/select_address_default"
+                android:paddingTop="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                android:paddingBottom="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_dark_14"
+                android:text="@string/service_fee_" />
+
+            <EditText
+                android:id="@+id/et_fee"
+                style="@style/base_et"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/dp_14"
+                android:gravity="right"
+                android:inputType="numberDecimal"
+                android:hint="@string/input_fee_hint"
+                android:paddingTop="@dimen/dp_16"
+                android:paddingBottom="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_fee_unit"
+                style="@style/tv_dark_14"
+                android:paddingRight="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_dark_14"
+                android:text="@string/lettering_" />
+
+            <EditText
+                android:id="@+id/et_msg"
+                style="@style/base_et"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/dp_14"
+                android:gravity="right"
+                android:paddingRight="@dimen/dp_16"
+                android:paddingTop="@dimen/dp_16"
+                android:paddingBottom="@dimen/dp_16" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_msg_scan"-->
+<!--                android:padding="@dimen/dp_16"-->
+<!--                android:layout_width="@dimen/dp_54"-->
+<!--                android:src="@drawable/ic_scan_2_blue"-->
+<!--                android:layout_height="match_parent"/>-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/footer_simple_deal" />
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_10"
+    android:background="@color/colorLight"
+    android:divider="@drawable/divider_line"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/tv_dark_14"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1"
+            android:text="@string/tag" />
+
+        <TextView
+            android:id="@+id/tv_tag"
+            style="@style/tv_gray_14"
+            android:drawableRight="@drawable/fenduo"
+            android:drawablePadding="@dimen/dp_14"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_address_text"
+        style="@style/tv_dark_14"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_16"
+        android:paddingBottom="@dimen/dp_16"
+        android:text="@string/address_default" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            style="@style/tv_dark_14"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:textIsSelectable="true"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/dp_10"
+            android:ellipsize="middle"
+            android:paddingBottom="@dimen/dp_16" />
+
+        <ImageView
+            android:id="@+id/iv_address"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/qr_code"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_key"
+        style="@style/tv_dark_14"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_10"
+        android:ellipsize="middle"
+        android:paddingBottom="@dimen/dp_16"
+        android:text="@string/key_" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_10">
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_save"-->
+<!--            style="@style/tv_dark_14"-->
+<!--            android:background="@drawable/circle_line_gray_dark"-->
+<!--            android:paddingLeft="@dimen/dp_20"-->
+<!--            android:paddingTop="@dimen/dp_8"-->
+<!--            android:paddingRight="@dimen/dp_20"-->
+<!--            android:paddingBottom="@dimen/dp_8"-->
+<!--            android:text="@string/save"-->
+<!--            android:textColor="@color/colorGrayDark" />-->
+
+        <TextView
+            android:id="@+id/tv_public_key"
+            style="@style/tv_dark_14"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:background="@drawable/circle_line_gray_dark"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_8"
+            android:paddingRight="@dimen/dp_20"
+            android:paddingBottom="@dimen/dp_8"
+            android:text="@string/show_public_key"
+            android:textColor="@color/colorGrayDark" />
+
+
+        <TextView
+            android:id="@+id/tv_code"
+            style="@style/tv_dark_14"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:background="@drawable/circle_line_gray_dark"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_8"
+            android:paddingRight="@dimen/dp_20"
+            android:paddingBottom="@dimen/dp_8"
+            android:text="@string/qrcode_see"
+            android:textColor="@color/colorGrayDark" />
+
+
+        <TextView
+            android:id="@+id/tv_delete"
+            style="@style/tv_dark_14"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:background="@drawable/circle_line_orange"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_8"
+            android:paddingRight="@dimen/dp_20"
+            android:paddingBottom="@dimen/dp_8"
+            android:text="@string/delete"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/tv_gray_14"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:text="保存时间：\n2019年8月10日" />
+
+        <TextView
+            android:id="@+id/tv_top"
+            style="@style/tv_gray_14"
+            android:drawableLeft="@drawable/shangyi"
+            android:drawablePadding="@dimen/dp_6"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="@string/top" />
+
+        <TextView
+            android:id="@+id/tv_up"
+            style="@style/tv_gray_14"
+            android:drawableLeft="@drawable/shangyi"
+            android:drawablePadding="@dimen/dp_6"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="@string/up" />
+
+        <TextView
+            android:id="@+id/tv_down"
+            style="@style/tv_gray_14"
+            android:drawableLeft="@drawable/shangyi2"
+            android:drawablePadding="@dimen/dp_6"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="@string/down" />
+    </LinearLayout>
+
+</LinearLayout>

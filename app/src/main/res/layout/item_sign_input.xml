@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_sign_output" />
+
+    <LinearLayout
+        android:id="@+id/ll_info_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLight"
+        android:orientation="vertical">
+
+        <View
+            style="@style/base_line"
+            android:layout_marginLeft="@dimen/dp_10" />
+
+        <TextView
+            android:id="@+id/tv2"
+            style="@style/tv_dark_14"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="交易地址：" />
+
+        <View
+            style="@style/base_line"
+            android:layout_marginLeft="@dimen/dp_10" />
+
+        <TextView
+            android:id="@+id/tv3"
+            style="@style/tv_dark_14"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dp_10"
+            android:ellipsize="middle"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="交易地址：" />
+
+        <View
+            style="@style/base_line"
+            android:layout_marginLeft="@dimen/dp_10" />
+
+
+        <TextView
+            android:id="@+id/tv4"
+            style="@style/tv_dark_14"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:ellipsize="middle"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="地址标签：" />
+    </LinearLayout>
+</LinearLayout>

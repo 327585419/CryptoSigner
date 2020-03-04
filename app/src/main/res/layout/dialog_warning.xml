@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/bg_pop"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_20"
+        android:paddingBottom="60dp">
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/tv_theme_16"
+            android:layout_marginTop="@dimen/dp_50"
+            android:drawableLeft="@mipmap/ic_error"
+            android:drawablePadding="@dimen/dp_4"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/dp_14"
+            android:singleLine="false"
+            android:textColor="@android:color/holo_red_light" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_button"
+        style="@style/bt_theme_circle"
+        android:layout_width="@dimen/dp_190"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/ll_center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginBottom="-21dp"
+        android:text="@string/confirm" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_10"
+    android:background="@color/colorLight"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            style="@style/tv_white_12"
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/dp_40"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_close" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            style="@style/tv_dark_16"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="交易输入：" />
+
+        <TextView
+            android:id="@+id/tv_sort"
+            style="@style/tv_dark_16"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="#1"
+            android:textColor="@color/colorAccent" />
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@drawable/xiafan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_info_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View style="@style/base_line" />
+
+        <TextView
+            android:id="@+id/tv0"
+            style="@style/tv_dark_14"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:ellipsize="middle"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="交易输出地址：" />
+
+        <View
+            style="@style/base_line"
+            android:layout_marginLeft="@dimen/dp_10" />
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/tv_dark_14"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="金额：" />
+
+    </LinearLayout>
+</LinearLayout>

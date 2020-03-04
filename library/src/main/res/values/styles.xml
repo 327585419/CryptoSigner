@@ -1,0 +1,117 @@
+<resources>
+
+    <!--TextView start-->
+    <style name="base_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:layout_centerVertical">true</item>-->
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <!--<item name="android:text">@string/app_name</item>-->
+    </style>
+
+    <style name="tv_dark_18" parent="base_tv">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+    </style>
+
+    <style name="tv_dark_16" parent="tv_dark_18">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="tv_dark_14" parent="tv_dark_18">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="tv_gray_16" parent="tv_dark_16">
+        <item name="android:textColor">@color/colorGray</item>
+    </style>
+
+    <style name="tv_gray_14" parent="tv_gray_16">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="tv_gray_12" parent="tv_gray_16">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="tv_white_16" parent="tv_dark_16">
+        <item name="android:textColor">@color/colorLight</item>
+    </style>
+
+    <style name="tv_white_14" parent="tv_white_16">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="tv_white_12" parent="tv_white_16">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="tv_theme_16" parent="tv_dark_16">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="tv_theme_14" parent="tv_theme_16">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="tv_theme_12" parent="tv_theme_16">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <!--TextView end-->
+
+    <!--EditView start-->
+
+    <style name="base_et" parent="base_tv">
+        <item name="android:text"></item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+    </style>
+
+    <style name="base_et_password" parent="base_et">
+        <item name="android:digits">
+            1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.
+        </item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLength">18</item>
+        <item name="android:password">true</item>
+    </style>
+
+    <!--EditView end-->
+
+    <!--Button start-->
+    <style name="base_bt">
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">@dimen/dp_11</item>
+        <item name="android:paddingBottom">@dimen/dp_11</item>
+        <!--<item name="android:layout_height">@dimen/dp_50</item>-->
+        <!--<item name="android:layout_marginLeft">@dimen/dp_16</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/dp_16</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="bt_theme" parent="base_bt">
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:background">@drawable/round_pie_theme</item>
+    </style>
+
+    <!--Button end-->
+
+    <style name="base_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_05</item>
+        <item name="android:background">@color/colorLineDivider</item>
+    </style>
+
+    <style name="base_line_vertical">
+        <item name="android:layout_width">@dimen/dp_05</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorHint</item>
+    </style>
+</resources>

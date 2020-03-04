@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp_10">
+
+<!--    <WebView-->
+<!--        android:id="@+id/web_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:visibility="gone" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLight"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_16">
+
+        <LinearLayout
+            android:id="@+id/ll_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_input"
+                style="@style/tv_dark_14"
+                android:layout_marginRight="@dimen/dp_16"
+                android:text="@string/input_crypt" />
+
+            <TextView
+                android:id="@+id/tv_path_left"
+                style="@style/base_et"
+                android:visibility="gone"
+                android:textSize="@dimen/sp_13"/>
+
+            <EditText
+                android:id="@+id/et_text"
+                style="@style/base_et"
+                android:singleLine="false"
+                android:textColorHint="@color/colorRed"
+                android:layout_width="match_parent"
+                android:hint="@string/crypt_simple"
+                android:paddingTop="@dimen/dp_16"
+                android:paddingBottom="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                android:textSize="@dimen/sp_13" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/first_line"
+            style="@style/base_line" />
+
+        <TextView
+            android:id="@+id/tv_input_tip_gray"
+            style="@style/tv_gray_14"
+            android:singleLine="false"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/dp_6"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_input_tip"
+            style="@style/tv_dark_14"
+            android:singleLine="false"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/dp_6"
+            android:gravity="center"
+            android:textColor="@color/colorRed"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/correct_path" />
+
+        <TextView
+            android:id="@+id/tv_button"
+            style="@style/bt_theme_circle"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dp_75"
+            android:layout_marginTop="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_90"
+            android:layout_marginBottom="@dimen/dp_25"
+            android:text="@string/create" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_save_key"/>
+
+</LinearLayout>

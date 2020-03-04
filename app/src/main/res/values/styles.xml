@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Base application theme.-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary" tools:ignore="DuplicateDefinition">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--特定比例视图-->
+    <declare-styleable name="RatioView">
+        <!-- 高度设置，参考宽度，如0.5 , 表示 高度＝宽度×０.5 -->
+        <attr name="height_to_width_ratio" format="float" />
+        <!-- 宽度设置，参考高度，如0.5 , 表示 宽度＝高度×０.5 -->
+        <attr name="width_to_height_ratio" format="float" />
+    </declare-styleable>
+
+
+    <style name="Dialog.Apply" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>  <!--是否漂在activity上-->
+        <item name="android:windowIsTranslucent">true</item> <!-- 是否半透明 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- dim:模糊的 阴影效果 -->
+    </style>
+
+    <style name="bt_theme_circle" parent="bt_theme">
+        <item name="android:background">@drawable/circle_pie_theme</item>
+    </style>
+
+    <style name="et_password" parent="base_et">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+</resources>

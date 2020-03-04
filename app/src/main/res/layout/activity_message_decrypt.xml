@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLight"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp_16">
+
+            <TextView
+                android:id="@+id/tv_address"
+                style="@style/tv_dark_14"
+                android:layout_width="match_parent"
+                android:drawableRight="@drawable/fenduo"
+                android:ellipsize="middle"
+                android:paddingTop="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                android:paddingBottom="@dimen/dp_16"
+                android:text="@string/select_address_" />
+
+            <View
+                android:id="@+id/first_line"
+                style="@style/base_line" />
+
+
+            <TextView
+                android:id="@+id/tv_button"
+                style="@style/bt_theme_circle"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/dp_75"
+                android:layout_marginTop="@dimen/dp_25"
+                android:layout_marginRight="@dimen/dp_90"
+                android:layout_marginBottom="@dimen/dp_25"
+                android:text="@string/scan" />
+
+            <TextView
+                style="@style/tv_dark_14"
+                android:paddingBottom="@dimen/dp_16"
+                android:text="@string/encrypted_text" />
+
+            <EditText
+                android:id="@+id/et_message"
+                style="@style/tv_dark_14"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_weight="1"
+                android:background="@drawable/round_line_gray"
+                android:gravity="top"
+                android:lineSpacingExtra="@dimen/dp_8"
+                android:layout_marginBottom="@dimen/dp_16"
+                android:minHeight="@dimen/dp_120"
+                android:padding="@dimen/dp_16"
+                android:singleLine="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/colorLight"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_save"
+                style="@style/bt_theme_circle"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/dp_90"
+                android:layout_marginTop="@dimen/dp_25"
+                android:layout_marginRight="@dimen/dp_90"
+                android:layout_marginBottom="@dimen/dp_25"
+                android:text="@string/decrypt" />
+
+
+            <TextView
+                android:id="@+id/tv_sign"
+                style="@style/tv_dark_14"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_weight="1"
+                android:background="@drawable/round_line_gray"
+                android:gravity="top"
+                android:lineSpacingExtra="@dimen/dp_8"
+                android:minHeight="@dimen/dp_120"
+                android:padding="@dimen/dp_16"
+                android:singleLine="false"
+                android:textIsSelectable="true"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_code"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_20"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/tv_code"
+                style="@style/tv_gray_12"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dp_30"
+                android:text="@string/decrypted_qr_code"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

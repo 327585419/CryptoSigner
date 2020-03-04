@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_enter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/tv_dark_14"
+        android:gravity="center"
+        android:minWidth="@dimen/dp_100"
+        android:padding="@dimen/dp_10"
+        android:text="入库单号" />
+</LinearLayout>

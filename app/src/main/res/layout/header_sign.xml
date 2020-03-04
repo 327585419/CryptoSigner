@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLight"
+    android:orientation="vertical">
+
+    <View
+        style="@style/base_line"
+        android:layout_height="@dimen/dp_10"
+        android:background="@color/colorWindow" />
+
+    <TextView
+        android:id="@+id/tv_button"
+        style="@style/bt_theme_circle"
+        android:layout_marginLeft="@dimen/dp_73"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_73"
+        android:text="@string/scan_deal_input_output" />
+
+    <TextView
+        style="@style/tv_gray_12"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="@string/scan_tip" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:keepScreenOn="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/bg_pop"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16"
+        android:paddingBottom="50dp">
+
+        <TextView
+            style="@style/tv_dark_16"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="@string/key" />
+
+        <TextView
+            android:id="@+id/tv_key"
+            style="@style/tv_theme_16"
+            android:layout_marginTop="@dimen/dp_8"
+            android:gravity="center"
+            android:singleLine="false"
+            android:textIsSelectable="true"
+            android:textColor="@color/colorPrimaryLight" />
+
+        <TextView
+            style="@style/tv_dark_16"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/key_qr_code" />
+
+        <ImageView
+            android:id="@+id/iv_key"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_100" />
+
+        <TextView
+            style="@style/tv_gray_14"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/backups_key" />
+
+
+        <TextView
+            style="@style/tv_dark_16"
+            android:layout_marginTop="@dimen/dp_27"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            style="@style/tv_theme_16"
+            android:layout_marginTop="@dimen/dp_8"
+            android:gravity="center"
+            android:textIsSelectable="true"
+            android:singleLine="false"
+            android:textColor="@color/colorPrimaryLight" />
+
+        <TextView
+            style="@style/tv_dark_16"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/address_qr_code" />
+
+        <ImageView
+            android:id="@+id/iv_address"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_100" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_button"
+        style="@style/bt_theme_circle"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/ll_center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginBottom="-21dp"
+        android:text="@string/has_backup" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/dp_10">
+
+    <TextView
+        android:id="@+id/tv_pwd"
+        style="@style/bt_theme_circle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/dp_75"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_marginRight="@dimen/dp_75"
+        android:text="@string/update_password" />
+
+    <TextView
+        android:id="@+id/tv_safety"
+        style="@style/bt_theme_circle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/dp_75"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_75"
+        android:text="@string/safety_instructions" />
+
+    <TextView
+        android:id="@+id/tv_exit"
+        style="@style/bt_theme_circle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/dp_75"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_75"
+        android:text="@string/exit" />
+
+
+</LinearLayout>

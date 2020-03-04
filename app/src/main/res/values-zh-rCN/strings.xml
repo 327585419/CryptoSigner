@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">密签</string>
+
+    <!--通用-->
+    <string name="confirm">确认</string>
+    <string name="sure">确定</string>
+    <string name="add">添加</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="load_finish">数据正在加载，请稍后重试</string>
+
+    <!--登录-->
+    <string name="input_password">请输入密码</string>
+    <string name="my_default_address">我的默认地址</string>
+    <string name="my_default_address_s">我的%s默认地址</string>
+    <string name="login">登录</string>
+    <string name="login_problems">登录遇到问题？</string>
+
+    <!--设置密码-->
+    <string name="set_password">请设置密码</string>
+    <string name="input_password_again">请再次输入密码</string>
+    <string name="safekeeping_password">*请保管好密码，忘记密码无法登录</string>
+    <string name="password_length">密码至少4位</string>
+    <string name="password_contains">密码需包含字母和数字</string>
+    <string name="password_different">两次输入的密码不一致</string>
+    <string name="password_incorrect">密码错误</string>
+
+    <!--首页-->
+    <string name="create_address">生成地址</string>
+    <string name="import_key">导入私钥</string>
+    <string name="update_password">修改密码</string>
+    <string name="manage_key">管理私钥</string>
+    <string name="message_sign">消息签名</string>
+    <string name="deal_sign">交易签名</string>
+
+    <!--生成地址-->
+    <string name="input_crypt_please">请输入密语</string>
+    <string name="crypt_simple">简单密语产生的私钥容易被破解，导致资产被盗！</string>
+    <string name="key_s">私钥：%s</string>
+    <string name="address_s">地址：%s</string>
+    <string name="create_address_first">请先生成地址</string>
+    <string name="input_tag">请填写标签</string>
+    <string name="input_crypt">输入密语：</string>
+    <string name="create">生成</string>
+    <string name="address_">地址：</string>
+    <string name="key_">私钥：</string>
+    <string name="tag">标签：</string>
+    <string name="save_backups">保存和备份</string>
+    <string name="key">私钥</string>
+    <string name="key_qr_code">私钥明文二维码</string>
+    <string name="backups_key">*请务必备份私钥，并妥善保管，不要泄露</string>
+    <string name="address">地址</string>
+    <string name="address_qr_code">地址明文二维码</string>
+    <string name="has_backup">我已备份</string>
+
+
+    <!--导入私钥-->
+    <string name="manual_input">手动输入</string>
+    <string name="import_memory_word">助记词导入</string>
+    <string name="qr_code_scan">二维码扫描</string>
+
+    <string name="input_key">输入私钥：</string>
+    <string name="input_key_please">请输入私钥</string>
+    <string name="input_key_incorrect">输入的私钥错误</string>
+
+    <string name="scan_key_incorrect">扫描的私钥错误</string>
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="import_incorrect">导入错误</string>
+
+    <string name="path">路径：</string>
+    <string name="import_">导入</string>
+    <string name="input_memory_word_please">请输入助记词</string>
+    <string name="input_memory_word">输入助记词：</string>
+    <string name="input_memory_overflow">助记词最多12个，请先删除</string>
+
+    <!--修改密码-->
+    <string name="input_password_current_please">请先输入当前密码</string>
+    <string name="input_password_new_please">请输入新密码</string>
+    <string name="input_password_new_again_please">请再次输入新密码</string>
+    <string name="password_current_incorrect">当前密码错误</string>
+    <string name="update_password_success">修改密码成功！</string>
+
+    <!--管理私钥-->
+    <string name="save_success">保存成功！</string>
+    <string name="key_first">当前私钥已经是第一个了</string>
+    <string name="key_last">当前私钥已经是最后一个了</string>
+    <string name="address_default">地址(默认)：</string>
+    <string name="save_time_s">保存时间：\n%s</string>
+    <string name="warning_delete">警告：私钥一旦删除，将无法找回相应地址上的资产。如果确定要删除，请按住“删除”按钮</string>
+    <string name="second2">2秒钟</string>
+    <string name="delete_success">删除成功！</string>
+    <string name="qrcode_see">显示私钥</string>
+    <string name="top">置顶</string>
+    <string name="up">上移</string>
+    <string name="down">下移</string>
+    <string name="show_key">即将显示私钥，请确认不会泄露</string>
+
+    <!--消息签名-->
+    <string name="select_address_">选择地址：</string>
+    <string name="scan_message_">待签消息：</string>    <!--update-->
+    <string name="scan">扫描</string>
+    <string name="create_sign">生成签名</string>
+    <string name="select_address_please">请先选择地址</string>
+    <string name="scan_message_please">请先扫描消息</string>
+    <string name="create_sign_error">生成签名错误</string>
+    <string name="message_s">消息：%s</string>
+    <string name="select_address_s">选择地址：%s</string>
+    <string name="message_">消息：</string>
+    <string name="sign_qr_code">*签名的二维码</string>
+
+    <!--交易签名-->
+    <string name="simple_deal">简单交易</string>
+    <string name="high_deal">高级交易</string>
+    <string name="scan_deal_input_output">扫描交易输入和输出</string>
+    <string name="create_deal_sign">生成交易签名</string>
+    <string name="give_change_address_">找零地址：</string>
+    <string name="select_address_default">可从地址中选择，否则找零至首输入地址</string>
+    <string name="service_fee_">矿工费：</string>
+    <string name="lettering_">扩展信息：</string>
+    <string name="scan_input_please">请先扫描交易输入</string>
+    <string name="scan_output_please">请先扫描交易输出</string>
+    <string name="create_address_please">请先生成并保存地址</string>
+    <string name="scan_error">扫描信息错误</string>
+    <string name="input_exist">此交易输入已存在列表</string>
+    <string name="output_exist">此交易输出已存在列表</string>
+    <string name="input_not_found">失败,请确认币种类型正确且该地址的私钥已保存!</string> <!--update-->
+    <string name="add_word_please">请先添加助记词</string>
+    <string name="input_path_please">请输入路径</string>
+    <string name="input_amount">请输入数量</string>
+    <string name="output_address_invalid">当前输出地址不合法</string>
+    <string name="input_address_different">交易输入地址不一致</string>
+    <string name="scan_tip">请用在线设备打开sign.cash获取未花费输出</string>
+
+    <!--    验证签名-->
+    <string name="verify_sign">验证私钥</string>
+    <string name="verify_sign_tip">请务必验证您保存的私钥有效</string>
+    <string name="ignore">忽略</string>
+    <string name="input_or_scan_key">请先输入或扫描私钥</string>
+    <string name="backup_error">备份有误，请重新备份</string>
+    <string name="backup_success">备份成功</string>
+
+    <string name="public_key">公钥</string>
+    <string name="warning_network">请关闭%s，防止私钥泄露！</string>
+    <string name="wifi">wifi连接</string>
+    <string name="data">数据流量</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="statement_name">《用户协议和法律协议》</string>
+    <string name="statement">
+   本协议为您与本APP管理者之间所订立的契约，具有合同的法律效力，请您仔细阅读。
+   \n1.本协议内容、生效、变更。本协议内容包括协议正文及所有本APP已经发布的或将来可能发布的各类规则。
+   \n所有规则为本协议不可分割的组成部分，与协议正文具有同等法律效力。如您对协议有任何疑问，应向本APP咨询。
+   \n您在同意所有协议条款并完成注册程序，才能成为本站的正式用户，您点击“我以阅读并同意本APP用户协议和法律协议”按钮后，本协议即生效，对双方产生约束力。
+   \n只要您使用本APP平台服务，则本协议即对您产生约束，届时您不应以未阅读本协议的内容或者未获得本APP对您问询的解答等理由，主张本协议无效，或要求撤销本协议。
+   \n您确认：本协议条款是处理双方权利义务的契约，始终有效，法律另有强制性规定或双方另有特别约定的，依其规定。
+   \n您承诺接受并遵守本协议的约定。如果您不同意本协议的约定，您应立即停止使用本APP服务。
+   \n本APP有权根据需要不定期地制订、修改本协议及/或各类规则，并在本APP平台公示，不再另行单独通知用户。变更后的协议和规则一经在网站公布，立即生效。
+   \n如您不同意相关变更，应当立即停止使用本APP平台服务。您继续使用本APP平台服务的，即表明您接受修订后的协议和规则。
+   \n2. 请保持设备离线，即不以线缆、移动网络、wifi、蓝牙、NFC等任何方式与其他设备相连。
+   \n3. 务必保证私钥、密语、助记词绝不泄露或丢失。密语和助记词可随时产生私钥，但私钥不能反推密语和助记词。
+   \n4. 在屏幕显示私钥、密语、助记词时，应确保周边安全，没有他人视野、摄像头等。
+   \n5. 用于存放资产的私钥、密语或助记词必须离线安全备份2份以上，并分别放置，定期查看。
+   \n6. 一旦本设备遗失或可能被刺探破解，请立即使用备份私钥将资产转移到安全的地址上。
+   \n7. 采用密语生成私钥时，密语应有足够长度和复杂性，建议40字符以上，包含多种字符，可加入一定长度的随机数，切勿使用名言诗句等。记住，您面对的是全世界正在破解私钥的计算机。
+   \n8. 本设备产生密语的代码开源，您可在sign.cash上找到，并可用简单密语在线做测试比对，以防止攻击者假冒密签APP提供已泄露的私钥。切不可用存资产的密语做在线测试。
+   \n9. 您可以在安全可信的外部设备中产生私钥或助记词，通过扫描或手工输入的方式导入密签。这个环节的安全性将取决于私钥和助记词的来源和您的操作。
+   \n10. 再次强调：私钥、密语、助记词绝不可泄露或丢失，设备必须离线，这是密签存在的意义。
+   \n11.本应用不联网，不收集任何用户和应用数据，如出现数据泄漏，本APP概不负责。</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="correct_path">必须指定路径才能通过助记词导入私钥！</string>
+    <string name="message_sign_tip">手动输入或扫描获取</string>
+
+    <string name="safety_instructions">安全须知</string>
+    <string name="exit">退出应用</string>
+    <string name="security_setting">安全设置</string>
+    <string name="safety_instructions_statement">
+   1. 请保持设备离线，即不以线缆、移动网络、wifi、蓝牙、NFC等任何方式与其他设备相连。
+   \n2. 务必保证私钥、密语、助记词绝不泄露或丢失。密语和助记词可随时产生私钥，但私钥不能反推密语和助记词。
+   \n3. 在屏幕显示私钥、密语、助记词时，应确保周边安全，没有他人视野、摄像头等。
+   \n4. 用于存放资产的私钥、密语或助记词必须离线安全备份2份以上，并分别放置，定期查看。
+   \n5. 一旦本设备遗失或可能被刺探破解，请立即使用备份私钥将资产转移到安全的地址上。
+   \n6. 采用密语生成私钥时，密语应有足够长度和复杂性，建议40字符以上，包含多种字符，可加入一定长度的随机数，切勿使用名言诗句等。记住，您面对的是全世界正在破解私钥的计算机。
+   \n7. 本设备产生密语的代码开源，您可在sign.cash上找到，并可用简单密语在线做测试比对，以防止攻击者假冒密签APP提供已泄露的私钥。切不可用存资产的密语做在线测试。
+   \n8. 您可以在安全可信的外部设备中产生私钥或助记词，通过扫描或手工输入的方式导入密签。这个环节的安全性将取决于私钥和助记词的来源和您的操作。
+   \n9. 再次强调：私钥、密语、助记词绝不可泄露或丢失，设备必须离线，这是密签存在的意义。
+   \n10.本应用不联网，不收集任何用户和应用数据，如出现数据泄漏，本APP概不负责。</string>
+
+    <string name="message_decrypt">消息解密</string>
+    <string name="encrypted_text">加密文本：</string>
+    <string name="decrypt">解密</string>
+    <string name="decrypted_qr_code">*解密后的二维码</string>
+    <string name="success_next">成功，下一个</string>
+    <string name="output_amount_zero">输出金额不能为0</string>
+    <string name="output_amount_exceed">输出金额不能超出输入金额</string>
+    <string name="input_fee_hint">请输入矿工费，否则支付最低矿工费</string>
+    <string name="insufficient_balance">转出金额太多，余额不足</string>
+    <string name="fee_too_little">矿工费太少</string>
+    <string name="amount_zero">金额不能为0</string>
+    <string name="create_sign_tip">输入总量：%sf\n输出总量：%sf\n矿工费：%s\n找零：%sf\n找零地址：%s</string>
+    <string name="show_public_key">显示公钥</string>
+</resources>

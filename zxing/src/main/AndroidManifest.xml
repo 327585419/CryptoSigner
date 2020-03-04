@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhou.zxing">
+
+    <application>
+        <activity xmlns:tools="http://schemas.android.com/tools"
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+
+        <activity android:name="com.zm.secretsign.ui.base.MyCaptureActivity"/>
+    </application>
+
+</manifest>

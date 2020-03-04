@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWindow">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beijintu" />
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!--    <com.zhou.library.utils.statusbarUtils.StatusBarHeightView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:use_type="use_padding_top">-->
+
+            <TextView
+                style="@style/tv_white_16"
+                android:layout_marginLeft="@dimen/dp_44"
+                android:layout_marginTop="@dimen/dp_35"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_centerInParent="true"
+                android:drawablePadding="@dimen/dp_12"
+                android:drawableTop="@mipmap/logo"
+                android:text="@string/app_name"
+                android:textSize="@dimen/sp_24" />
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_margin="@dimen/dp_15"-->
+    <!--            android:background="@drawable/bg_pop"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:paddingLeft="@dimen/dp_29"-->
+    <!--            android:paddingTop="@dimen/dp_20"-->
+    <!--            android:paddingRight="@dimen/dp_29"-->
+    <!--            android:paddingBottom="@dimen/dp_30">-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/et_pwd_current"-->
+    <!--                style="@style/et_password"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="@dimen/dp_15"-->
+    <!--                android:layout_marginBottom="@dimen/dp_5"-->
+    <!--                android:hint="@string/input_password_current_please"-->
+    <!--                android:padding="@dimen/dp_16" />-->
+
+    <!--            <View style="@style/base_line" />-->
+
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/et_pwd"-->
+    <!--                style="@style/et_password"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="@dimen/dp_15"-->
+    <!--                android:layout_marginBottom="@dimen/dp_5"-->
+    <!--                android:hint="@string/input_password_new_please"-->
+    <!--                android:padding="@dimen/dp_16" />-->
+
+    <!--            <View style="@style/base_line" />-->
+
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/et_pwd_again"-->
+    <!--                style="@style/et_password"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="@dimen/dp_15"-->
+    <!--                android:layout_marginBottom="@dimen/dp_5"-->
+    <!--                android:hint="@string/input_password_new_again_please"-->
+    <!--                android:padding="@dimen/dp_16" />-->
+
+    <!--            <View style="@style/base_line" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tv_login"-->
+    <!--                style="@style/bt_theme_circle"-->
+    <!--                android:layout_marginLeft="@dimen/dp_16"-->
+    <!--                android:layout_marginTop="@dimen/dp_30"-->
+    <!--                android:layout_marginRight="@dimen/dp_16"-->
+    <!--                android:text="@string/sure" />-->
+
+    <!--            <TextView-->
+    <!--                style="@style/tv_gray_12"-->
+    <!--                android:layout_marginTop="@dimen/dp_20"-->
+    <!--                android:text="@string/safekeeping_password" />-->
+
+    <!--        </LinearLayout>-->
+
+
+    <!--        <TextView-->
+    <!--            style="@style/tv_gray_12"-->
+    <!--            android:layout_below="@+id/ll_center"-->
+    <!--            android:layout_gravity="center_horizontal"-->
+    <!--            android:layout_marginBottom="@dimen/dp_15"-->
+    <!--            android:text="@string/login_problems" />-->
+
+    <!--    </com.zhou.library.utils.statusbarUtils.StatusBarHeightView>-->
+
+</RelativeLayout>

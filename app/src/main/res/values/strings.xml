@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Cryptosigner</string>
+    <!--    "Encrypted Signature"-->
+
+    <!--通用 "General"-->
+    <string name="confirm">Confirm</string>
+    <string name="sure">Sure</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="load_finish">Loading, please try again later</string>
+
+    <!--登录 "Login"-->
+    <string name="input_password">password</string>
+    <string name="my_default_address">My default address</string>
+    <string name="my_default_address_s">My default address %s</string>
+    <string name="login">Login</string>
+    <string name="login_problems">Login problems？</string>
+
+    <!--设置密码 "Set password"-->
+    <string name="set_password">Set password</string>
+    <string name="input_password_again">Please enter again</string>
+    <string name="safekeeping_password">Safe keeping the password, it couldn\'t log in if password forgot</string>
+    <string name="password_length">At least four characters</string>
+    <string name="password_contains">Cannot only contains letters or numbers</string>
+    <string name="password_different">Two passwords do not match</string>
+    <string name="password_incorrect">User name and password do not match</string>
+
+    <!--首页-->
+    <string name="create_address">Generate address</string>
+    <string name="import_key">Import the private key</string>
+    <string name="update_password">Change the password</string>
+    <string name="manage_key">Manage the private key</string>
+    <string name="message_sign">Sign Message </string>
+    <string name="deal_sign">Sign Transaction</string>
+
+    <!--生成地址-->
+    <string name="input_crypt_please">Enter the secret</string>
+    <string name="crypt_simple">Simple secret is unsafe!</string>
+    <string name="key_s">Private key：%s</string>
+    <string name="address_s">Address：%s</string>
+    <string name="create_address_first">Generate the adrress first</string>
+    <string name="input_tag">Enter the tag</string>
+    <string name="input_crypt">Enter the secret：</string>
+    <string name="create">Generate</string>
+    <string name="address_">Address：</string>
+    <string name="key_">Private key：</string>
+    <string name="tag">Tag：</string>
+    <string name="save_backups">Save and backup</string>
+    <string name="key">Private key</string>
+    <string name="key_qr_code">Private key QR Code</string>
+    <string name="backups_key">*Please backup the private key and safe keeping it, do not leak it</string>
+    <string name="address">Address</string>
+    <string name="address_qr_code">Address QR Code</string>
+    <string name="has_backup">I have backed up</string>
+
+    <!--导入私钥"Import the private key"-->
+    <string name="manual_input">Enter manually</string>
+    <string name="import_memory_word">Import from the Mnemonic</string>
+    <string name="qr_code_scan">Scan QR Code</string>
+
+    <string name="input_key">Enter the private key：</string>
+    <string name="input_key_please">Enter the private key</string>
+    <string name="input_key_incorrect">Private key wrong</string>
+
+    <string name="scan_key_incorrect">Scan Private key failed</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="import_incorrect">Import failed</string>
+
+    <string name="path">Path：</string>
+    <string name="import_">Import</string>
+    <string name="input_memory_word_please">Enter the Mnemonic</string>""
+    <string name="input_memory_word">Enter the Mnemonic：</string>
+    <string name="input_memory_overflow">Max to 12 characters</string>
+
+    <!--修改密码 "Change password"-->
+    <string name="input_password_current_please">Enter the current password</string>
+    <string name="input_password_new_please">New password</string>
+    <string name="input_password_new_again_please">Enter password again</string>
+    <string name="password_current_incorrect">Password wrong</string>
+    <string name="update_password_success">Password update success！</string>
+
+    <!--管理私钥"Manage the private key"-->
+    <string name="save_success">Save success！</string>
+    <string name="key_first">It is the first private key</string>
+    <string name="key_last">It is the last privave key</string>
+    <string name="address_default">Address(default)：</string>
+    <string name="save_time_s">Save time：\n%s</string>
+    <string name="warning_delete">Warning! Once the private key deleted funds can\'t be found. Please hold the "Delete" if confirmed</string>
+    <string name="second2">2 seconds</string>
+    <string name="delete_success">Delete success！</string>
+    <string name="qrcode_see">Show the private key</string>
+    <string name="top">Stick on the top</string>
+    <string name="up">Move up</string>
+    <string name="down">Move down</string>
+    <string name="show_key">Show the private key soon, please make sure safe environment</string>
+
+    <!--消息签名"Message sign"-->
+    <string name="select_address_">Select address：</string>
+    <string name="scan_message_">Scan message：</string>
+    <string name="scan">Scan</string>
+    <string name="create_sign">Generate signature</string>
+    <string name="select_address_please">Select address first</string>
+    <string name="scan_message_please">Scan message first</string>
+    <string name="create_sign_error">Generate signature failed</string>
+    <string name="message_s">Message：%s</string>
+    <string name="select_address_s">Select address：%s</string>
+    <string name="message_">Message：</string>
+    <string name="sign_qr_code">*QR Code for sign</string>
+
+    <!--交易签名"Transaction sign"-->
+    <string name="simple_deal">Simple transaction</string>
+    <string name="high_deal">Advanced transaction</string>
+    <string name="scan_deal_input_output">Scan transaction input and output</string>
+    <string name="create_deal_sign">Generate transaction sign</string>
+    <string name="give_change_address_">Address to return changes：</string>
+    <string name="select_address_default">Select from the existed address, or it would be returned to the first input address</string>
+
+    <string name="service_fee_">Miner\'s fee：</string>
+    <string name="lettering_">Additional message：</string>
+    <string name="scan_input_please">Scan transaction input first</string>
+    <string name="scan_output_please">Scan transaction output first</string>
+    <string name="create_address_please">Generate and save the address first</string>
+    <string name="scan_error">Scan message failed</string>
+    <string name="input_exist">This trasaction input is already existed</string>
+    <string name="output_exist">This trasaction output is already existed</string>
+    <string name="input_not_found">Can\'t find related information, please check the token</string>
+    <string name="add_word_please">Add the Mnemonic first</string>
+    <string name="input_path_please">Enter the input path</string>
+    <string name="input_amount">Enter amount</string>
+    <string name="output_address_invalid">This output address is illegal</string>
+    <string name="input_address_different">Transaction input address do not match</string>
+    <string name="scan_tip">Please use online device to open sign.cash to get the unused output</string>
+
+
+    <!--    验证签名-->
+    <string name="verify_sign">Verify private key</string>
+    <string name="verify_sign_tip">Be sure to verify that the private key you saved is valid</string>
+    <string name="ignore">ignore</string>
+    <string name="input_or_scan_key">Please enter or scan the private key first</string>
+    <string name="backup_error">Backup error, please back up again</string>
+    <string name="backup_success">Backup success</string>
+
+    <string name="public_key">Public key</string>
+    <string name="warning_network">Please turn off %s to prevent the private key from leaking!</string>
+    <string name="wifi">WiFi connection</string>
+    <string name="data">Mobile data traffic</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="statement_name">User Agreement and Legal Agreement</string>
+    <string name="statement">
+   Important: This agreement is a contract between you and the administrator of this application. Please read it carefully before using.
+   \n1. The content, validity and changes of this agreement. The content of this agreement includes the body of the agreement and all rules that have been published by the APP or may be released in the future.
+   \nAll rules are an integral part of this agreement and have the same legal effect as the body of the agreement. If you have any questions about the agreement, please contact this APP.
+   \nOnly after you agree to all the terms of the agreement and complete the registration process can you become an official user of this site. After you click the "I have read and agreed the User Agreement and Legal Agreement of this APP" button, you are agreeing to be bound by the following terms.
+   \nAs long as you use the service from this APP, this agreement will be binding on you. At that time, you should not claim that this agreement is invalid, or request cancellation, on the grounds that you have not read the content of this agreement or obtained the answer to your inquiry by this APP.
+   \nYou confirm that the terms of this agreement are a contract that deals with the rights and obligations of both parties and are always valid. If there are other mandatory provisions of the law or special agreements between the two parties, that they shall be regarding to them.
+   \nYou undertake to accept and abide by this agreement. If you do not agree with this agreement, you should immediately stop using this APP service.
+   \nThis APP has the right to formulate and modify this agreement and / or various rules from time to time as required, and publicize it on this APP platform, without further separate notification to users. Once the changed agreement and rules are published on the website, they will take effect immediately.
+   \nIf you do not agree with the relevant changes, you should immediately stop using this APP platform service. Your continued use of the APP platform services indicates that you accept the revised agreement and rules.
+   \n2. Keep the device offline, that do not connect it to other devices by any approaches such as cable, mobile network, WIFI, Bluetooth, NFC, etc.
+   \n3. Make sure that Private keys, Secret phrase, and Mnemonics are never revealed or lost. Secret phrase or Mnemonics can generate Private keys at any time, but Private keys cannot infer Secret phrase or Mnemonics.
+   \n4. When displaying private keys, Secret phrase, or Mnemonic on the screen, ensure that the surrounding area is safe, and there is no other person’s vision, camera, etc.
+   \n5. The private key, secret phrase and mnemonic that are used to store assets must be safely backed up more than 2 copies offline, placed separately, and checked regularly.
+   \n6. Once the device is lost or hacked, please use the backup private key to transfer the assets to a secure address immediately.
+   \n7. When using secret phrase to generate private keys, the secret phrase should be of sufficient length and complexity. It is recommended that more than 40 characters include multiple kinds of characters. Random numbers of a certain length can be added. Do not use famous poems. Remember, you are facing a mass of computers over the world trying to crack private keys.
+   \n8. The code that generates private key with secret phrase on this device is open source. You can find it on sign.cash. You can also use some secret phrase to generate private keys online and  compare it with the private keys generated on Cryptosigner with the same secret phrase. By this, you can prevent that Cryptosinger APP provide you leaked private key. Never use the secret phrase of the stored assets for online testing.
+   \n9. You can generate a private key or mnemonic in a secure and trusted external device, and import to Cryptosigner by scanning or manual input. The security of this session will depend on the source of the private key and mnemonic and your actions.
+   \n10. Again, the private key, Secret phrase, and mnemonic can not be leaked or lost, and the device must be offline, which is the significant meaning of Cryptosinger.
+   \n11. This application is not connected to the Internet and does not collect any user and application data. If the data leak occurs, this APP is not responsible for this.</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="correct_path">Path must be specified to import private key via mnemonic！</string>
+    <string name="message_sign_tip">Manual input or scan acquisition</string>
+
+    <string name="safety_instructions">Safety instructions</string>
+    <string name="exit">Exit application</string>
+    <string name="security_setting">Security setting</string>
+    <string name="safety_instructions_statement">
+   1. Keep the device offline, that do not connect it to other devices by any approaches such as cable, mobile network, WIFI, Bluetooth, NFC, etc.
+   \n2. Make sure that Private keys, Secret phrase, and Mnemonics are never revealed or lost. Secret phrase or Mnemonics can generate Private keys at any time, but Private keys cannot infer Secret phrase or Mnemonics.
+   \n3. When displaying private keys, Secret phrase, or Mnemonic on the screen, ensure that the surrounding area is safe, and there is no other person’s vision, camera, etc.
+   \n4. The private key, secret phrase and mnemonic that are used to store assets must be safely backed up more than 2 copies offline, placed separately, and checked regularly.
+   \n5. Once the device is lost or hacked, please use the backup private key to transfer the assets to a secure address immediately.
+   \n6. When using secret phrase to generate private keys, the secret phrase should be of sufficient length and complexity. It is recommended that more than 40 characters include multiple kinds of characters. Random numbers of a certain length can be added. Do not use famous poems. Remember, you are facing a mass of computers over the world trying to crack private keys.
+   \n7. The code that generates private key with secret phrase on this device is open source. You can find it on sign.cash. You can also use some secret phrase to generate private keys online and  compare it with the private keys generated on Cryptosigner with the same secret phrase. By this, you can prevent that Cryptosinger APP provide you leaked private key. Never use the secret phrase of the stored assets for online testing.
+   \n8. You can generate a private key or mnemonic in a secure and trusted external device, and import to Cryptosigner by scanning or manual input. The security of this session will depend on the source of the private key and mnemonic and your actions.
+   \n9. Again, the private key, Secret phrase, and mnemonic can not be leaked or lost, and the device must be offline, which is the significant meaning of Cryptosinger.
+   \n10. This application is not connected to the Internet and does not collect any user and application data. If the data leak occurs, this APP is not responsible for this.</string>
+
+    <string name="message_decrypt">Message decrypt</string>
+    <string name="encrypted_text">Encrypted text：</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="decrypted_qr_code">*Decrypted QR code</string>
+    <string name="success_next">Success,next</string>
+    <string name="output_amount_zero">Output amount cannot be 0</string>
+    <string name="output_amount_exceed">Output amount cannot exceed input amount</string>
+    <string name="input_fee_hint">Please enter the miner\'s fee, otherwise pay the minimum miner\'s fee</string>
+    <string name="insufficient_balance">Too much transfer out amount, insufficient balance</string>
+    <string name="fee_too_little">Too little miner\'s fee</string>
+    <string name="amount_zero">Amount cannot be 0</string>
+    <string name="create_sign_tip">Input total amount：%sf\nOutput total amount：%sf\nMiner\'s fee：%s\nReturn changes：%sf\nAddress to return changes：%s</string>
+    <string name="show_public_key">Show the public key</string>
+</resources>

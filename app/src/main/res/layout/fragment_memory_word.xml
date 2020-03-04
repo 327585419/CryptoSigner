@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_10">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLight"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/colorLight"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_16">
+
+            <TextView
+                style="@style/tv_dark_14"
+                android:text="@string/input_memory_word" />
+
+            <EditText
+                android:id="@+id/et_word"
+                style="@style/base_et"
+                android:layout_width="@dimen/dp_0"
+                android:layout_weight="1"
+                android:padding="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_add"
+                style="@style/tv_white_14"
+                android:layout_width="wrap_content"
+                android:background="@drawable/circle_pie_orange"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_22"
+                android:paddingTop="@dimen/dp_6"
+                android:paddingRight="@dimen/dp_22"
+                android:paddingBottom="@dimen/dp_6"
+                android:text="@string/add" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLight">
+
+            <View
+                style="@style/base_line"
+                android:layout_marginLeft="@dimen/dp_16" />
+        </LinearLayout>
+
+        <include layout="@layout/activity_create_address" />
+    </LinearLayout>
+</ScrollView>

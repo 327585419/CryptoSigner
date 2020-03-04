@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="@dimen/dp_10"
+android:background="@color/colorLight"
+android:orientation="vertical"
+android:paddingLeft="@dimen/dp_16">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+
+        style="@style/tv_dark_14"
+        android:layout_width="wrap_content"
+
+        android:text="@string/address_" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        style="@style/tv_dark_14"
+        android:ellipsize="middle"
+        android:textIsSelectable="true"
+        android:paddingTop="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16"
+        android:paddingBottom="@dimen/dp_16"
+        android:layout_width="match_parent" />
+
+</LinearLayout>
+
+<View style="@style/base_line" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+
+        style="@style/tv_dark_14"
+
+        android:text="@string/key_" />
+
+    <TextView
+        android:id="@+id/tv_key"
+        style="@style/tv_dark_14"
+        android:ellipsize="middle"
+        android:textIsSelectable="true"
+        android:paddingTop="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16"
+        android:paddingBottom="@dimen/dp_16"
+        android:layout_width="match_parent" />
+
+</LinearLayout>
+
+<View style="@style/base_line" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/tv_dark_14"
+        android:paddingTop="@dimen/dp_16"
+        android:paddingBottom="@dimen/dp_16"
+        android:text="@string/tag" />
+
+    <EditText
+        android:id="@+id/et_tag"
+        style="@style/base_et"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16"
+        android:paddingBottom="@dimen/dp_16" />
+
+</LinearLayout>
+
+<View style="@style/base_line" />
+
+
+<TextView
+    android:id="@+id/tv_save"
+    style="@style/bt_theme_circle"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/dp_75"
+    android:layout_marginTop="@dimen/dp_25"
+    android:layout_marginRight="@dimen/dp_90"
+    android:layout_marginBottom="@dimen/dp_25"
+    android:text="@string/save_backups" />
+
+</LinearLayout>
